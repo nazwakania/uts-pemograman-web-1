@@ -1,0 +1,117 @@
+/* Import Font Lucu & Lembut */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff5f8; /* Pink pastel sangat muda */
+  color: #5a3e48;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Pink Pastel */
+.navbar-pastel {
+  background-color: #ffe4ec;
+  border-bottom: 2px solid #ffc2d4;
+}
+
+.navbar-brand {
+  color: #d86c93 !important;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  color: #5a3e48 !important;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 6px 14px !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+  background-color: #ffc2d4;
+  color: #5a3e48 !important;
+}
+
+/* Kotak Banner Utama */
+.banner-pastel {
+  background-color: #ffe4ec;
+  border: 2px solid #ffc2d4;
+  border-radius: 25px;
+  padding: 40px 30px;
+}
+
+/* Kartu Informasi */
+.card-pastel {
+  background-color: #ffffff;
+  border: 2px solid #ffe4ec;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-pastel:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(216, 108, 147, 0.15);
+}
+
+.card-pastel img {
+  height: 190px;
+  object-fit: cover;
+}
+
+/* Tombol Pastel */
+.btn-pastel {
+  background-color: #f48fb1;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.btn-pastel:hover {
+  background-color: #d86c93;
+  color: white;
+}
+
+.btn-outline-pastel {
+  border: 2px solid #f48fb1;
+  color: #d86c93;
+  border-radius: 25px;
+  padding: 7px 18px;
+  font-weight: 700;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.btn-outline-pastel:hover {
+  background-color: #ffe4ec;
+  color: #d86c93;
+}
+
+/* Input Form */
+.form-control {
+  border-radius: 15px;
+  border: 1.5px solid #ffc2d4;
+  padding: 10px 15px;
+}
+
+.form-control:focus {
+  border-color: #f48fb1;
+  box-shadow: 0 0 0 0.2rem rgba(244, 143, 177, 0.25);
+}
+
+/* Footer Wajib UTS */
+footer {
+  margin-top: auto;
+  background-color: #ffe4ec;
+  border-top: 2px solid #ffc2d4;
+  color: #d86c93;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0;
+}
